@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess my number</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="again-con">
+        <button class="again" id="again">Again</button>
+        <p>(Between 1 and 20)</p>
+      </div>
+      <h1 class="header">Guess my number</h1>
+      <div class="secret-con">
+        <div class="line"></div>
+        <div class="secret">?</div>
+        <div class="line"></div>
+      </div>
+      <div class="input-con">
+        <input type="number" name="guess" id="guess" />
+        <p class="message">Start guessing...</p>
+      </div>
+      <div class="check-con">
+        <button class="again" id="check">Check!</button>
+        <div class="score-con">
+          <p>Score: <span class="score">20</span></p>
+          <p>Higscore: <span class="highscore">0</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
