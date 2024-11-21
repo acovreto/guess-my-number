@@ -1,66 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body{
+    font-family:  "Press Start 2P", sans-serif;
+}
+.game-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #555;
+    color: white;
+}
+.again{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.btn{
+    font-size: 24px;
+    padding: 20px 40px;
+    font-family: inherit;
+    display: block;
+    cursor: pointer;
 
-body {
-  background-color: #333;
-  color: white;
-  font-family: 'Press Start 2P', sans-serif;
 }
-.container {
-  padding: 50px;
+.game-name{
+    text-align: center;
+    font-size: 70px;
 }
-.again-con {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.line{
+    background-color: white;
+    height: 15px;
+    width: 30%;
 }
-.again {
-  display: inline-block;
-  font-family: 'Press Start 2P', sans-serif;
-  font-family: inherit;
-  padding: 15px 15px;
-  cursor: pointer;
+.secret-num{
+    width: 15%;
+    text-align: center;
+    color: #555;
+    padding: 50px 0;
+    background-color: white;
+    font-size: 50px;
 }
-.header {
-  text-align: center;
-  font-size: 50px;
+.secret-num-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.line {
-  width: 40%;
-  height: 15px;
-  background-color: white;
+.input-box{
+    width: 50%;
 }
-.secret {
-  color: #333;
-  background-color: white;
-  width: 20%;
-  font-size: 80px;
-  padding: 20px;
-  text-align: center;
+.message-box{
+    width: 50%;
 }
-.secret-con {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+.box{
+    display: flex;
+    text-align: center;
 }
-.input-con {
-  display: flex;
-  justify-content: space-evenly;
+.check{
+    margin: 0 auto;
 }
-#guess {
-  display: inline-block;
-  text-align: center;
-  width: 20%;
-  font-family: inherit;
-
-  font-size: 60px;
-  padding: 30px 20px;
-  border-color: white;
-  border-width: 3px;
-  color: white;
-  background-color: #333;
+.input{
+    padding: 20px 5px;
+    font-size: 30px;
+    margin: 100px 0;
+    width: 200px;
+    font-family: inherit;
 }
-.check-con {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.message{
+    margin-top: 100px;
+}
+.score, .highscore{
+    margin-top: 50px;
 }
